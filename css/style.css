@@ -1,0 +1,301 @@
+﻿body {
+    font-size: 18px;
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+header  {
+    padding: 1.5rem 0 2rem 2rem;
+    background: #F3F5FC;
+
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #0A3871;
+}
+
+
+.input-box {
+    width: 100%;
+    padding: 3rem 22rem 1.5rem 14rem;
+    background: #F3F5FC;
+    box-sizing: border-box;
+}
+
+
+.input-text {
+    width: 28em;
+    height: 15.2em;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    outline: 0;
+    border: none;
+    resize: none;
+    color: #0A3871;
+    background: #F3F5FC;
+}
+
+.input-text::placeholder{
+    color: #0A3871;
+}
+
+.input-warning{
+    color: #495057;
+    font-size: 0.6em;
+    padding: 4em 1em 1em 0em;
+}
+
+#warning-icon{
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+.buttons{
+    display: inline-block;
+}
+
+.encry-button{
+    background: #0A3871;
+    color: #FFFFFF;
+    margin: 0 1em 0 0;
+    padding: 1.2em 7em;
+    border: 0.1em solid #0A3871;
+    border-radius: 1.3em;
+    transition: 0.500s;
+} 
+
+.encry-button:hover{
+    background: #343A40;
+}
+
+.decry-button{
+    background: #D8DFE8;
+    color: #0A3871;
+    margin: 0 1em 0 0;
+    padding: 1.2em 6em;
+    border: 0.1em solid #0A3871;
+    border-radius: 1.3em;
+    transition: 0.500s;
+}
+
+.decry-button:hover{
+    background: #ADB5BD;
+}
+
+.output-img{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.4rem;
+    width: 16.5em;
+}
+
+.tablet-img{
+    display: none;
+}
+
+.mobile-img{
+    display: none;
+}
+
+.output-box{
+    position: absolute;
+    top: 3.4rem;
+    right: 10rem;
+    background: #F3F5FC;
+}
+
+
+.output{
+    width: 17.5em;
+    height: 29.2em;
+    padding: 5.5em 1.7em 0;
+    box-sizing: border-box;
+    border-radius: 1.3em;
+    box-shadow: 0em 0.1em 0.5em 0.2em #D8DFE8;
+    background: #FFFFFF;
+}
+
+.output-text{
+    width: 14em;
+    height: 15.7em;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    outline: 0;
+    border: none;
+    resize: none;
+    color: #0A3871;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.copy-button{
+    margin-top: 4.6em;
+    padding: 1.2em 8em;
+    border-radius: 1.3em;
+    color: #0A3871;
+    background: #FFFFFF;
+    border: 0.1em solid #0A3871;
+    transition: 0.500s;
+}
+
+.copy-button:hover{
+    background: #CED4DA;
+}
+
+footer{
+    padding: 2rem;
+    text-align: center;
+    background: #F3F5FC;
+}
+
+footer div{
+    font-size: 0.8em;
+    color: #0A3871;
+    background: #F3F5FC;
+}
+
+@media (max-width: 1220px){
+
+    header  {
+        width: 25em;
+        margin: 0 auto;
+        padding: 2rem 0 1.5rem 2rem;
+    }
+
+    .input-box {
+        width: 27em;
+        margin: 0 auto;
+        padding: 2em;
+    }
+
+    .input-text{
+        width: 22.5em;
+    }
+
+    .encry-button{
+        padding: 1.2em 4.7em;
+    } 
+    
+    .decry-button{
+        padding: 1.2em 3.8em;
+        margin-right: 0;
+    }
+
+    .output-img{
+        display: none;
+    }
+
+    .mobile-img{
+        display: none;
+    }
+    .tablet-img{
+        display: inline-block;
+        width: 21em;
+        position: absolute;
+        top: 34.5em;
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+    }
+    
+    .output-box{
+        position: static;
+        width: 23em;
+        margin: 0.5em auto;
+        padding: 0 2rem;
+    }
+    
+    .output{
+        width: 23em;
+        height: 19.5em;
+        padding: 1.5em 1.5em;
+    }
+
+    .output-text{
+        width: 20em;
+        height: 13.5em;
+    }
+    
+    .copy-button{
+        margin-top: 0.5em;
+        padding: 1.2em 12em;
+    }
+}
+
+/* mobile */
+
+@media (max-width: 472px){
+
+    header  {
+        width: 15em;
+        padding: 2rem 0 1.5rem 2rem;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    .input-box {
+        width: 17em;
+    }
+
+    .input-text{
+        width: 16em;
+        height: 6em;
+        font-size: 0.8em;
+    }
+
+    .encry-button{
+        padding: 1.2em 6.1em;
+        margin-bottom: 1em;
+    } 
+    
+    .decry-button{
+        padding: 1.2em 5.3em;
+    }
+    
+    .output-img{
+        display: none;
+    }
+
+    .tablet-img{
+        display: none;
+    }
+
+    .mobile-img{
+        display: inline-block;
+        width: 13em;
+        position: absolute;
+        top: 25.5em;
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+    }
+
+    .output-box{
+        width: 15em;
+        margin: 0 auto;
+        padding: 0 1em;
+        box-sizing: border-box;
+    }
+    
+    .output{
+        width: 13em;
+        height: 11em;
+        padding: 1em 1em; 
+        margin-bottom: 1em;
+    }
+
+    .output-text{
+        width: 14em;
+        height: 7.5em;
+        font-size: 0.8em;
+    }
+    
+    .copy-button{
+        padding: 1.2em 5.9em;
+    }
+}

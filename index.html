@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,700,1,200" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Turing Encryptor</title>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Turing<br>Encrypter</h1>
+		</header>
+		<main>
+			<section class="input-box">
+					<textarea class="input-text" type="text" name="inputText" placeholder="Digite o seu texto" autofocus></textarea>
+				<div class="input-warning">
+					<p><span class="material-symbols-outlined" id="warning-icon">error</span> Apenas letras minúsculas e sem acento.</p>
+				</div>
+				<div class="buttons">
+					<button class="encry-button" type="button">Criptografar</button>
+					<button class="decry-button" type="button">Descriptografar</button>
+				</div>
+			</section>
+			<section class="output-box">
+				<div class="output">
+					<div class="output-warning">
+						<img class="output-img" src="./img/output-img.svg">
+						<img class="tablet-img" src="./img/tablet-img.svg">
+						<img class="mobile-img" src="./img/mobile-img.svg">
+					</div>
+					<textarea class="output-text" type="text"></textarea>
+					<button class="copy-button" type="button">Copiar</button>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div>Desenvolvido com &#128153; por Elias G.</div>
+		</footer>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
