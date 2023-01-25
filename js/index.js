@@ -68,7 +68,7 @@ const decry = document.querySelector('.decry-button');
 const outputText = document.querySelector('.output-text');
 const copy = document.querySelector('.copy-button');
 
-const allowedChars = /[a-z]+/;
+const allowedChars = /[a-z, 0-9]+/;
 inputText.addEventListener("beforeinput", disableChars);
 
 encry.onclick = encrypt;
