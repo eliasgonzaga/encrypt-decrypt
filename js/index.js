@@ -55,6 +55,12 @@ function copyText(){
     navigator.clipboard.writeText(outputText.value);
 }
 
+function disableChars(e){
+    if (!allowedChars.test(e.data)) {
+        e.preventDefault();
+    }
+}
+
 const inputText = document.querySelector('.input-text');
 const encry = document.querySelector('.encry-button');
 const decry = document.querySelector('.decry-button');
@@ -62,6 +68,9 @@ const decry = document.querySelector('.decry-button');
 const outputText = document.querySelector('.output-text');
 const copy = document.querySelector('.copy-button');
 
+const allowedChars = /[a-z]+/;
+inputText.addEventListener("beforeinput", disableChars);
+
 encry.onclick = encrypt;
 decry.onclick = decrypt;
-copy.onclick = copyText;
+copy.onclick = copyText; 

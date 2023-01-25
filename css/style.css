@@ -4,27 +4,25 @@
 
 body {
     font-size: 18px;
-    background: #F3F5FC;
+    background: #F3E6FC;
     font-family: 'Inter', sans-serif;
 }
 
 header  {
-    padding: 1.5rem 0 2rem 2rem;
-    background: #F3F5FC;
+    padding: 2rem 0 2rem 2rem;
+    background: #F3E6FC;
 }
 
-h1 {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #0A3871;
+.logo{
+    width: 140px;
 }
 
 .input-box {
     width: 100%;
-    max-width: 768px;
-    margin: 0 30rem 0em auto;
-    padding: 2.9rem 0 2rem 2rem;
-    background: #F3F5FC;
+    max-width: 65rem;
+    margin: 0 0 0 auto;
+    padding: 2.9rem 0rem 2rem 2rem;
+    background: #F3E6FC;
 }
 
 .input-text {
@@ -35,17 +33,16 @@ h1 {
     outline: 0;
     border: none;
     resize: none;
-    color: #0A3871;
-    background: #F3F5FC;
+    color: #3C0663;
+    background: #F3E6FC;
 }
 
 .input-text::placeholder{
-    color: #0A3871;
+    color: #3C0663;
 }
 
 .input-warning{
-    width: 100%;
-    color: #495057;
+    color: #310055;
     font-size: 0.6em;
     padding: 4em 1em 1em 0em;
 }
@@ -56,35 +53,37 @@ h1 {
 }
 
 .encry-button{
-    background: #0A3871;
-    color: #FFFFFF;
+    background: #3C0663;
+    color: #F3E6FC;
     margin: 0 1em 0 0;
     padding: 1.2em 7em;
-    border: 0.1em solid #0A3871;
+    border: 0.1em solid #3C0663;
     border-radius: 1.3em;
     transition: 0.500s;
 } 
 
 .encry-button:hover{
-    background: #343A40;
+    background: #5A108F;
+    transition: 0.500s;
 }
 
 .decry-button{
-    background: #D8DFE8;
-    color: #0A3871;
+    background: #E6C6FC;
+    color: #3C0663;
     padding: 1.2em 6em;
-    border: 0.1em solid #0A3871;
+    border: 0.1em solid #3C0663;
     border-radius: 1.3em;
     transition: 0.500s;
 }
 
 .decry-button:hover{
-    background: #ADB5BD;
+    background: #DCACFC;
+    transition: 0.500s;
 }
 
 .output-img{
     position: absolute;
-    top: 0.5rem;
+    top: 1.5rem;
     right: 0.4rem;
     width: 16.5em;
 }
@@ -99,30 +98,30 @@ h1 {
 
 .output-box{
     position: absolute;
-    top: 3.4rem;
-    right: 7rem;
-    background: #F3F5FC;
+    top: 2rem;
+    right: 2rem;
+    background: #F3E6FC;
 }
 
 
 .output{
     width: 17.5em;
-    height: 29.2em;
-    padding: 5.5em 1.7em 0;
+    height: 30.5em;
+    padding: 1.7em 1.7em 0;
     border-radius: 1.3em;
-    box-shadow: 0em 0.1em 0.5em 0.2em #D8DFE8;
+    box-shadow: 0em 0.1em 0.5em 0.2em #E6C6FC;
     background: #FFFFFF;
 }
 
 .output-text{
     width: 14em;
-    height: 15.4em;
+    height: 20.7em;
     font-size: 1em;
     font-family: 'Inter', sans-serif;
     outline: 0;
     border: none;
     resize: none;
-    color: #0A3871;
+    color: #3C0663;
     background: #FFFFFF;
 }
 
@@ -130,29 +129,27 @@ h1 {
     margin-top: 4.6em;
     padding: 1.2em 8em;
     border-radius: 1.3em;
-    color: #0A3871;
+    color: #3C0663;
     background: #FFFFFF;
-    border: 0.1em solid #0A3871;
+    border: 0.1em solid #3C0663;
     transition: 0.500s;
 }
 
 .copy-button:hover{
-    background: #CED4DA;
+    background: #e9c8ff;
+    transition: 0.500s;
 }
 
 footer{
     width: 90%;
-    max-width: 300px;
-    padding: 2rem;
-    text-align: center;
-    background: #F3F5FC;
+    max-width: 48.59px;
+    padding: 0.5rem 0;
+    background: #F3E6FC; 
     margin: auto;
 }
 
-footer div{
-    font-size: 0.8em;
-    color: #0A3871;
-    background: #F3F5FC;
+.logo-github{
+    width: 3em;
 }
 
 /* tablet */
@@ -187,8 +184,8 @@ footer div{
     .tablet-img{
         display: inline-block;
         position: absolute;
-        width: 696px;
-        top: 45.2em;
+        width: 670px;
+        top: 46em;
         margin: 0 auto;
         right: 2em;
         left: 2em;

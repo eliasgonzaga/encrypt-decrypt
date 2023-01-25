@@ -32,7 +32,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Turing Encrypter app web que permite encriptar e decodificar mensagens.
+O Turing Encrypter app web que permite encriptar e decodificar mensagens. As "chaves" de criptografia são utilizadas da seguinte maneira:
+
+- A letra "e" é convertida para "enter"
+- A letra "i" é convertida para "imes"
+- A letra "a" é convertida para "ai"
+- A letra "o" é convertida para "ober"
+- A letra "u" é convertida para "ufat"
+
+## 📍 Requisitos:
+
+Funciona apenas com letras minúsculas e não é possível utilizar letras com acento e nem caracteres especiais.
 
 - [Visite o projeto online](https://eliasgonzaga.github.io/encrypt-decrypt)
 
