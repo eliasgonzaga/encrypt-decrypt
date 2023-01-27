@@ -1,7 +1,7 @@
 <h1 align="center"> Turing Encrypter</h1>
 
 <p align="center">
-Esse projeto faz parte do primeiro challenge proposto pela ONE (Oracle Next Education), para praticar os conhecimentos técnicos adquidridos na formação incial para o curso de dev. A ONE é um programa de educação gratuito, promovido pela Alura em parceria com a Oracle para ensino de tecnologias WEB. <br/>
+Esse projeto faz parte do primeiro challenge proposto pela ONE (Oracle Next Education) para praticar os conhecimentos técnicos adquidridos na formação incial do curso de dev. A ONE é um programa de educação gratuito, promovido pela Oracle em parceria com a Alura para ensino de tecnologias WEB. <br/>
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Turing Encrypter app web que permite encriptar e decodificar mensagens. As "chaves" de criptografia são utilizadas da seguinte maneira:
+O Turing Encrypter é um aplicativo web que permite codificar e decodificar mensagens. As "chaves" de criptografia são utilizadas da seguinte maneira:
 
 - A letra "e" é convertida para "enter"
 - A letra "i" é convertida para "imes"
@@ -42,7 +42,7 @@ O Turing Encrypter app web que permite encriptar e decodificar mensagens. As "ch
 
 ## 📍 Requisitos:
 
-Funciona apenas com letras minúsculas e não é possível utilizar letras com acento e nem caracteres especiais.
+O aplicativo funciona apenas com letras minúsculas e não é possível utilizar letras com acento e nem caracteres especiais.
 
 - [Visite o projeto online](https://eliasgonzaga.github.io/encrypt-decrypt)
 
