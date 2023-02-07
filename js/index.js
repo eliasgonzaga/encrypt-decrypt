@@ -19,7 +19,7 @@ function encrypt(){
         }else if(array[i] == 'u'){
             array[i] = 'ufat';
         }
-        encryArray = encryArray + array[i];
+        encryArray += array[i];
     }
     return document.querySelector(".output-text").innerHTML = encryArray;
 }
@@ -46,7 +46,7 @@ function decrypt(){
             array[i + 3] = 'e';
             i = i + 3;
         }
-        decryArray = decryArray + array[i];
+        decryArray += array[i];
     }
     return document.querySelector(".output-text").innerHTML = decryArray;
 }
